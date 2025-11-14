@@ -1,2 +1,3 @@
 from .logistic_regression_model import LogisticRegressionModel
 from .random_forest_model import RandomForestModel
+from .xgb_model import XGBoostModel
