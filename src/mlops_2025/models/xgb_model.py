@@ -19,3 +19,7 @@ class XGBoostModel(BaseModel):
     def predict(self, X):
         """Predict using the trained XGBoost model."""
         return self.model.predict(X)
+
+    def predict(self, X):
+        """Predict using the trained XGBoost model."""
+        return self.model.predict(X)
